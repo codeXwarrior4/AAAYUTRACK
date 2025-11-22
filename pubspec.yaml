@@ -1,0 +1,68 @@
+name: aayu_track
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <5.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI + General
+  cupertino_icons: ^1.0.6
+  animations: ^2.0.11
+  lottie: ^3.3.2
+
+  # Markdown Viewer (fixed)
+  flutter_markdown: ^0.6.10
+
+  # File / PDF / Sharing
+  pdf: ^3.10.7
+  printing: ^5.13.1
+  share_plus: ^12.0.1
+  open_filex: ^4.5.0
+  path_provider: ^2.1.5
+
+  # Localization + Date/Time
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+  # Storage
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Notifications
+  flutter_local_notifications: ^19.5.0
+
+  # Voice I/O
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.0
+
+  # Firebase
+  firebase_core: ^4.2.1
+
+  # Gemini API (Mock for now)
+  google_generative_ai: ^0.4.7
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - assets/animations/
+    - assets/translations/
+  
